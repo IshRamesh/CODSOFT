@@ -19,7 +19,6 @@ def determine_winner(user, computer):
     else:
         return "Computer wins!"
 
-# Main Game Loop
 while True:
     print("\n--- Rock Paper Scissors Game ---")
     user_choice = get_user_choice()
